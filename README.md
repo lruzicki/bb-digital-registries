@@ -1,8 +1,5 @@
 # GovStack Building Block Template
 
-
-NEW LINE FOR TESTING TAGS
-
 This template is intended to be used by the various GovStack building block
 repos. Each building block repo will have at least 4 main sections, outlined in
 the directory structure below.
