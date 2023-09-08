@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<testsuite failures="20" skipped="0" name="cucumber-js" time="0.45246378700000006" tests="43">
+  <testcase classname="API endpoint that allows to search multiple records in the database." name="Successfully obtains database users information smoke type test" time="0.021702884">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"object","properties":...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: number (expected string)
+          schema: {"type":"object","properties":{"count":{"type":"number"},"ne...
+          rule:   /properties/next/type -> "string"
+          field:  /next -> number: 1
+    at World.<anonymous> (/app/features/support/data_list.js:68:14)]]></failure>
+    <system-out><![CDATA[Given user wants to get the database users information....................passed
+When send GET request with given Information-Mediator-Client header and...passed
+Then receive a response from the GET /data/{registryname}/{versionnumbe...passed
+And the response from /data/{registryname}/{versionnumber} should be re...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should match...failed
+And results array length is consistent with count field value............skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows to search multiple records in the database." name="Successfully obtains database users information" time="0.009556133">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"object","properties":...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: number (expected string)
+          schema: {"type":"object","properties":{"count":{"type":"number"},"ne...
+          rule:   /properties/next/type -> "string"
+          field:  /next -> number: 1
+    at World.<anonymous> (/app/features/support/data_list.js:68:14)]]></failure>
+    <system-out><![CDATA[Given user wants to get the database users information....................passed
+When send GET request with given Information-Mediator-Client header and...passed
+And filter users information by using query parameters "John" as search...passed
+Then receive a response from the GET /data/{registryname}/{versionnumbe...passed
+And the response from /data/{registryname}/{versionnumber} should be re...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should match...failed
+And the response from /data/{registryname}/{versionnumber} is filtered...skipped
+And results array length is consistent with count field value............skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows to search multiple records in the database." name="Successfully obtains database users information [1]" time="0.009481467">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"object","properties":...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: number (expected string)
+          schema: {"type":"object","properties":{"count":{"type":"number"},"ne...
+          rule:   /properties/next/type -> "string"
+          field:  /next -> number: 1
+    at World.<anonymous> (/app/features/support/data_list.js:68:14)]]></failure>
+    <system-out><![CDATA[Given user wants to get the database users information....................passed
+When send GET request with given Information-Mediator-Client header and...passed
+And filter users information by using query parameters "Alice" as searc...passed
+Then receive a response from the GET /data/{registryname}/{versionnumbe...passed
+And the response from /data/{registryname}/{versionnumber} should be re...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should match...failed
+And the response from /data/{registryname}/{versionnumber} is filtered...skipped
+And results array length is consistent with count field value............skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows to search multiple records in the database." name="Successfully obtains database users information [2]" time="0.008456647000000001">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"object","properties":...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: number (expected string)
+          schema: {"type":"object","properties":{"count":{"type":"number"},"ne...
+          rule:   /properties/next/type -> "string"
+          field:  /next -> number: 1
+    at World.<anonymous> (/app/features/support/data_list.js:68:14)]]></failure>
+    <system-out><![CDATA[Given user wants to get the database users information....................passed
+When send GET request with given Information-Mediator-Client header and...passed
+And filter users information by using query parameters "Jack" as search...passed
+Then receive a response from the GET /data/{registryname}/{versionnumbe...passed
+And the response from /data/{registryname}/{versionnumber} should be re...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should match...failed
+And the response from /data/{registryname}/{versionnumber} is filtered...skipped
+And results array length is consistent with count field value............skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows to search multiple records in the database." name="Successfully obtains database users information [3]" time="0.007184632">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"object","properties":...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: number (expected string)
+          schema: {"type":"object","properties":{"count":{"type":"number"},"ne...
+          rule:   /properties/next/type -> "string"
+          field:  /next -> number: 1
+    at World.<anonymous> (/app/features/support/data_list.js:68:14)]]></failure>
+    <system-out><![CDATA[Given user wants to get the database users information....................passed
+When send GET request with given Information-Mediator-Client header and...passed
+And filter users information by using query parameters "Bob" as search ...passed
+Then receive a response from the GET /data/{registryname}/{versionnumbe...passed
+And the response from /data/{registryname}/{versionnumber} should be re...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should match...failed
+And the response from /data/{registryname}/{versionnumber} is filtered...skipped
+And results array length is consistent with count field value............skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows to search multiple records in the database." name="Receive an empty list from the database" time="0.008303486">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"object","properties":...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: number (expected string)
+          schema: {"type":"object","properties":{"count":{"type":"number"},"ne...
+          rule:   /properties/next/type -> "string"
+          field:  /next -> number: 1
+    at World.<anonymous> (/app/features/support/data_list.js:68:14)]]></failure>
+    <system-out><![CDATA[Given search for a specific value and the searched value does not exist...passed
+When send GET request with given Information-Mediator-Client header and...passed
+Then receive a response from the GET /data/{registryname}/{versionnumbe...passed
+And the response from /data/{registryname}/{versionnumber} should be re...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should have ...passed
+And the response from /data/{registryname}/{versionnumber} should match...failed
+And results field should be an empty array...............................skipped
+And results array length is consistent with count field value............skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to check who has read their personal data." name="The user gets a list of all records that have read his personal data smoke test type" time="0.005528549000000001">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"array","properties":{...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: object (expected array)
+          schema: {"type":"array","properties":{"type":"object","properties":{...
+          rule:   /type -> "array"
+    at World.<anonymous> (/app/features/support/data_my_personal_data_usage.js:72:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to check who has read his personal data..............passed
+When User sends GET /data/MyPersonalDataUsage/1.0 request with given In...passed
+Then User receives a response from the /data/MyPersonalDataUsage/1.0 en...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should be retur...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have sta...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have con...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should match js...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to check who has read their personal data." name="The user gets a list of all records that have read his personal data" time="0.0044013540000000006">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"array","properties":{...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: object (expected array)
+          schema: {"type":"array","properties":{"type":"object","properties":{...
+          rule:   /type -> "array"
+    at World.<anonymous> (/app/features/support/data_my_personal_data_usage.js:72:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to check who has read his personal data..............passed
+When User sends GET /data/MyPersonalDataUsage/1.0 request with given In...passed
+Then User receives a response from the /data/MyPersonalDataUsage/1.0 en...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should be retur...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have sta...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have con...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should match js...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to check who has read their personal data." name="The user gets a list of all records that have read his personal data [1]" time="0.0032176880000000002">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"array","properties":{...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: object (expected array)
+          schema: {"type":"array","properties":{"type":"object","properties":{...
+          rule:   /type -> "array"
+    at World.<anonymous> (/app/features/support/data_my_personal_data_usage.js:72:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to check who has read his personal data..............passed
+When User sends GET /data/MyPersonalDataUsage/1.0 request with given In...passed
+Then User receives a response from the /data/MyPersonalDataUsage/1.0 en...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should be retur...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have sta...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have con...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should match js...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to check who has read their personal data." name="The user gets a list of all records that have read his personal data [2]" time="0.004655387">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError: expected value to match json-schema '{"type":"array","properties":{...' -> '{"count":1,"next":1,"previous"...'
+      Invalid type: object (expected array)
+          schema: {"type":"array","properties":{"type":"object","properties":{...
+          rule:   /type -> "array"
+    at World.<anonymous> (/app/features/support/data_my_personal_data_usage.js:72:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to check who has read his personal data..............passed
+When User sends GET /data/MyPersonalDataUsage/1.0 request with given In...passed
+Then User receives a response from the /data/MyPersonalDataUsage/1.0 en...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should be retur...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have sta...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have con...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should match js...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to check who has read their personal data." name="The user is not able to gets a list of all records that have read his personal data because of the invalid userID parameter" time="0.0047402780000000005">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError [ERR_ASSERTION]: HTTP status 200 !== 400
+    + expected - actual
+
+    -200
+    +400
+
+    at Expect._validateStatus (/app/node_modules/pactum/src/models/expect.js:104:14)
+    at Expect.validate (/app/node_modules/pactum/src/models/expect.js:46:10)
+    at Have._validate (/app/node_modules/pactum/src/exports/expect.js:111:26)
+    at Have.status (/app/node_modules/pactum/src/exports/expect.js:14:10)
+    at World.<anonymous> (/app/features/support/data_my_personal_data_usage.js:92:60)]]></failure>
+    <system-out><![CDATA[Given The user wants to check who has read his personal data..............passed
+When User sends GET /data/MyPersonalDataUsage/1.0 request with given In...passed
+Then User receives a response from the /data/MyPersonalDataUsage/1.0 en...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should be retur...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have sta...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to check who has read their personal data." name="The user is not able to gets a list of all records that have read his personal data because of the invalid DatabaseID parameter" time="0.004400795">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError [ERR_ASSERTION]: HTTP status 200 !== 400
+    + expected - actual
+
+    -200
+    +400
+
+    at Expect._validateStatus (/app/node_modules/pactum/src/models/expect.js:104:14)
+    at Expect.validate (/app/node_modules/pactum/src/models/expect.js:46:10)
+    at Have._validate (/app/node_modules/pactum/src/exports/expect.js:111:26)
+    at Have.status (/app/node_modules/pactum/src/exports/expect.js:14:10)
+    at World.<anonymous> (/app/features/support/data_my_personal_data_usage.js:92:60)]]></failure>
+    <system-out><![CDATA[Given The user wants to check who has read his personal data..............passed
+When User sends GET /data/MyPersonalDataUsage/1.0 request with given In...passed
+Then User receives a response from the /data/MyPersonalDataUsage/1.0 en...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should be retur...passed
+And The /data/MyPersonalDataUsage/1.0 endpoint response should have sta...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to search for the field value of a record in the database." name="The user gets the first name of the searched user from the database smoke type test" time="0.009706302000000002">
+    <system-out><![CDATA[Given The user wants to search for the user's first name of the user in...passed
+When User sends GET request with given Information-Mediator-Client head...passed
+Then User receives a response from the GET /data/{registryname}/{versio...passed
+And The GET /data/{registryname}/{versionnumber}/{uuid}/read-value/{fie...passed
+And The GET /data/{registryname}/{versionnumber}/{uuid}/read-value/{fie...passed
+And The GET /data/{registryname}/{versionnumber}/{uuid}/read-value/{fie...passed
+And The GET /data/{registryname}/{versionnumber}/{uuid}/read-value/{fie...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to search for a record in the database." name="User obtains a searched record from the database smoke type test" time="0.010261777">
+    <system-out><![CDATA[Given The user wants to search for a record in the database...............passed
+When User sends POST /data/{registryname}/{versionnumber}/read request ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to search for a record in the database." name="User obtains a searched record from the database" time="0.009526521999999999">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError
+    + expected - actual
+
+    -EE378627348834
+    +EE378129127223
+
+    at World.<anonymous> (/app/features/support/data_read.js:108:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to search for a record in the database...............passed
+When User sends POST /data/{registryname}/{versionnumber}/read request ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read response should conta...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to search for a record in the database." name="User obtains a searched record from the database [1]" time="0.007216565">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError
+    + expected - actual
+
+    -John Helmut
+    +Eva
+
+    at World.<anonymous> (/app/features/support/data_read.js:108:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to search for a record in the database...............passed
+When User sends POST /data/{registryname}/{versionnumber}/read request ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read response should conta...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to search for a record in the database." name="User obtains a searched record from the database [2]" time="0.008783392999999997">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError
+    + expected - actual
+
+    -Smith Carry
+    +Smith
+
+    at World.<anonymous> (/app/features/support/data_read.js:108:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to search for a record in the database...............passed
+When User sends POST /data/{registryname}/{versionnumber}/read request ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read response should conta...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to search for a record in the database." name="User obtains a searched record from the database [3]" time="0.008799075000000002">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError
+    + expected - actual
+
+    -RR-1234567889
+    +EE6546273487865
+
+    at World.<anonymous> (/app/features/support/data_read.js:108:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to search for a record in the database...............passed
+When User sends POST /data/{registryname}/{versionnumber}/read request ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read response should conta...failed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to search for a record in the database." name="The user gets a searched record from the database when he specifies all parameters" time="0.009045028">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError
+    + expected - actual
+
+    -John Helmut
+    +Billy
+
+    at World.<anonymous> (/app/features/support/data_read.js:108:14)]]></failure>
+    <system-out><![CDATA[Given The user wants to search for a record in the database...............passed
+When User sends POST /data/{registryname}/{versionnumber}/read request ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read response should conta...failed
+And The /data/{registryname}/{versionnumber}/read response should cont...skipped
+And The /data/{registryname}/{versionnumber}/read response should cont...skipped
+And The /data/{registryname}/{versionnumber}/read response should cont...skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to search for a record in the database." name="Receives a message that the record not found in the database" time="0.008681173">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError [ERR_ASSERTION]: HTTP status 200 !== 404
+    + expected - actual
+
+    -200
+    +404
+
+    at Expect._validateStatus (/app/node_modules/pactum/src/models/expect.js:104:14)
+    at Expect.validate (/app/node_modules/pactum/src/models/expect.js:46:10)
+    at Have._validate (/app/node_modules/pactum/src/exports/expect.js:111:26)
+    at Have.status (/app/node_modules/pactum/src/exports/expect.js:14:10)
+    at World.<anonymous> (/app/features/support/data_read.js:139:45)]]></failure>
+    <system-out><![CDATA[Given The user wants to search for a record in the database...............passed
+When User sends POST /data/{registryname}/{versionnumber}/read request ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...passed
+And The /data/{registryname}/{versionnumber}/read endpoint response sho...failed
+And The /data/{registryname}/{versionnumber}/read endpoint response sh...skipped
+And The /data/{registryname}/{versionnumber}/read endpoint response sh...skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that updates multiple records in the registry database that match the input query." name="Successfully updates multiple records in the database by first name smoke type test" time="0.013077501">
+    <system-out><![CDATA[Given User wants to update multiple records in the database...............passed
+When User sends PUT request to /data/{registryname}/{versionnumber}/upd...passed
+And The request contains a payload with two objects: query object that ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/update-entries response sh...passed
+And The /data/{registryname}/{versionnumber}/update-entries response sh...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that updates multiple records in the registry database that match the input query." name="Successfully updates multiple records in the database by first name" time="0.013985000000000001">
+    <system-out><![CDATA[Given User wants to update multiple records in the database...............passed
+When User sends PUT request to /data/{registryname}/{versionnumber}/upd...passed
+And The request contains a payload with two objects: query object that ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/update-entries response sh...passed
+And The /data/{registryname}/{versionnumber}/update-entries response sh...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that updates multiple records in the registry database that match the input query." name="Successfully updates multiple records in the database by first name [1]" time="0.012593396">
+    <system-out><![CDATA[Given User wants to update multiple records in the database...............passed
+When User sends PUT request to /data/{registryname}/{versionnumber}/upd...passed
+And The request contains a payload with two objects: query object that ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/update-entries response sh...passed
+And The /data/{registryname}/{versionnumber}/update-entries response sh...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that updates multiple records in the registry database that match the input query." name="Successfully updates multiple records in the database" time="0.011657534">
+    <system-out><![CDATA[Given User wants to update multiple records in the database...............passed
+When User sends PUT request to /data/{registryname}/{versionnumber}/upd...passed
+And The request contains a payload with two objects: query object that ...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/update-entries response sh...passed
+And The /data/{registryname}/{versionnumber}/update-entries response sh...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that updates existing record that matches with request body parameters, or creates a new one if the record was not found" name="The record is successfully created in the database smoke type test" time="0.012840395">
+    <system-out><![CDATA[Given User wants to create a new record in the database...................passed
+When User sends POST request to /data/{registryname}/{versionnumber}/up...passed
+And The request contains a payload with query and write objects that bo...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that updates existing record that matches with request body parameters, or creates a new one if the record was not found" name="The record is successfully created in the database smoke type test [1]" time="0.015848542999999996">
+    <system-out><![CDATA[Given User wants to create a new record in the database...................passed
+When User sends POST request to /data/{registryname}/{versionnumber}/up...passed
+And The request contains a payload with query and write objects that bo...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that updates existing record that matches with request body parameters, or creates a new one if the record was not found" name="The existing record is successfully updated in the database" time="0.014074705000000002">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError
+    + expected - actual
+
+    -EE378627348834
+    +EE123456789012
+
+    at World.<anonymous> (/app/features/support/data_update_or_create.js:143:14)]]></failure>
+    <system-out><![CDATA[Given User wants to update previously created record in the database......passed
+When User sends POST request to /data/{registryname}/{versionnumber}/up...passed
+And The request contains a payload with query object that contains cont...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...failed
+And The /data/{registryname}/{versionnumber}/update-or-create response...skipped
+And The /data/{registryname}/{versionnumber}/update-or-create response...skipped
+And The /data/{registryname}/{versionnumber}/update-or-create response...skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that updates existing record that matches with request body parameters, or creates a new one if the record was not found" name="The existing record is successfully updated in the database [1]" time="0.013504355000000001">
+    <failure type="FAILED" message="A hook or step failed"><![CDATA[AssertionError
+    + expected - actual
+
+    -EE378627348834
+    +EE098765432109
+
+    at World.<anonymous> (/app/features/support/data_update_or_create.js:143:14)]]></failure>
+    <system-out><![CDATA[Given User wants to update previously created record in the database......passed
+When User sends POST request to /data/{registryname}/{versionnumber}/up...passed
+And The request contains a payload with query object that contains cont...passed
+Then User receives a response from the /data/{registryname}/{versionnum...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...passed
+And The /data/{registryname}/{versionnumber}/update-or-create response ...failed
+And The /data/{registryname}/{versionnumber}/update-or-create response...skipped
+And The /data/{registryname}/{versionnumber}/update-or-create response...skipped
+And The /data/{registryname}/{versionnumber}/update-or-create response...skipped]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to update a record in the database." name="Successfully updates a record in the registry database smoke type test" time="0.015586865999999998">
+    <system-out><![CDATA[Given User wants to update an existing record in the database.............passed
+When PUT request to update a record in the database is sent with given ...passed
+And The request contains a payload with given "EE3784545277266" as ID "...passed
+Then The response from /data/{registryname}/{versionnumber}/update is r...passed
+And The response from /data/{registryname}/{versionnumber}/update shoul...passed
+And The response from /data/{registryname}/{versionnumber}/update shoul...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to update a record in the database." name="Successfully updates a record in the registry database" time="0.014170453999999999">
+    <system-out><![CDATA[Given User wants to update an existing record in the database.............passed
+When PUT request to update a record in the database is sent with given ...passed
+And The request contains a payload with given "EE34462734834865" as ID ...passed
+Then The response from /data/{registryname}/{versionnumber}/update is r...passed
+And The response from /data/{registryname}/{versionnumber}/update shoul...passed
+And The response from /data/{registryname}/{versionnumber}/update shoul...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to update a record in the database." name="Successfully updates a record in the registry database [1]" time="0.016175086999999998">
+    <system-out><![CDATA[Given User wants to update an existing record in the database.............passed
+When PUT request to update a record in the database is sent with given ...passed
+And The request contains a payload with given "EE61287673487865" as ID ...passed
+Then The response from /data/{registryname}/{versionnumber}/update is r...passed
+And The response from /data/{registryname}/{versionnumber}/update shoul...passed
+And The response from /data/{registryname}/{versionnumber}/update shoul...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows users to update a record in the database." name="Successfully updates a record in the registry database [2]" time="0.012198144000000003">
+    <system-out><![CDATA[Given User wants to update an existing record in the database.............passed
+When PUT request to update a record in the database is sent with given ...passed
+And The request contains a payload with given "EE6534523487865" as ID "...passed
+Then The response from /data/{registryname}/{versionnumber}/update is r...passed
+And The response from /data/{registryname}/{versionnumber}/update shoul...passed
+And The response from /data/{registryname}/{versionnumber}/update shoul...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to delete database schema" name="User successfully deletes the Digital Registries schema smoke type test" time="0.008649536000000001">
+    <system-out><![CDATA[Given User wants to delete the Digital Registries schema..................passed
+When The DELETE request with given Information-Mediator-Client header a...passed
+Then User receives a response from the DELETE /database/id endpoint.......passed
+And The DELETE /database/id endpoint response should be returned in a t...passed
+And The DELETE /database/id endpoint response should have status 200......passed
+And The DELETE /database/id endpoint response should have content-type:...passed
+And The DELETE /database/id endpoint response should match json schema....passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to delete database schema" name="User successfully deletes the Digital Registries schema" time="0.010096633">
+    <system-out><![CDATA[Given User wants to delete the Digital Registries schema..................passed
+When The DELETE request with given Information-Mediator-Client header a...passed
+Then User receives a response from the DELETE /database/id endpoint.......passed
+And The DELETE /database/id endpoint response should be returned in a t...passed
+And The DELETE /database/id endpoint response should have content-type:...passed
+And The DELETE /database/id endpoint response should match json schema....passed
+And The DELETE /database/id endpoint response should have body "Success...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to delete database schema" name="User successfully deletes the Digital Registries schema [1]" time="0.006897439">
+    <system-out><![CDATA[Given User wants to delete the Digital Registries schema..................passed
+When The DELETE request with given Information-Mediator-Client header a...passed
+Then User receives a response from the DELETE /database/id endpoint.......passed
+And The DELETE /database/id endpoint response should be returned in a t...passed
+And The DELETE /database/id endpoint response should have content-type:...passed
+And The DELETE /database/id endpoint response should match json schema....passed
+And The DELETE /database/id endpoint response should have body "Success...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to delete database schema" name="User successfully deletes the Digital Registries schema [2]" time="0.008897777999999997">
+    <system-out><![CDATA[Given User wants to delete the Digital Registries schema..................passed
+When The DELETE request with given Information-Mediator-Client header a...passed
+Then User receives a response from the DELETE /database/id endpoint.......passed
+And The DELETE /database/id endpoint response should be returned in a t...passed
+And The DELETE /database/id endpoint response should have content-type:...passed
+And The DELETE /database/id endpoint response should match json schema....passed
+And The DELETE /database/id endpoint response should have body "Success...passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to get information about all databases." name="The user receives information about databases" time="0.014996523999999995">
+    <system-out><![CDATA[Given User wants to view information about all databases..................passed
+When User sends GET request with given Information-Mediator-Client head...passed
+Then User receives a response from the /databases endpoint................passed
+And The /databases endpoint response should be returned in a timely man...passed
+And The /databases endpoint response should have status 200...............passed
+And The /databases endpoint response should have content-type: applicat...passed
+And The /databases endpoint response should match json schema.............passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to create or modify database schema." name="The user successfully creates a database schema" time="0.013821345000000002">
+    <system-out><![CDATA[Given User wants to create or modify the database schema..................passed
+When User sends POST request with given Information-Mediator-Client hea...passed
+Then User receives a response from the /database/modify endpoint..........passed
+And The /database/modify endpoint response should be returned in a time...passed
+And The /database/modify endpoint response should have status 200.........passed
+And The /database/modify endpoint response should have content-type: ap...passed
+And The /database/modify endpoint response should match json schema.......passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to get database information with database schema." name="User successfully obtains database information with database schema smoke type test" time="0.014926178">
+    <system-out><![CDATA[Given User wants to get the database information of Digital Registries ...passed
+When User sends GET request with given Information-Mediator-Client head...passed
+Then User receives a response from the GET /database/id endpoint..........passed
+And The GET /database/id endpoint response should be returned in a time...passed
+And The GET /database/id endpoint response should have status 200.........passed
+And The GET /database/id endpoint response should have content-type: ap...passed
+And The GET /database/id endpoint response should match json schema.......passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to get database information with database schema." name="User successfully obtains database information with database schema" time="0.008770895000000003">
+    <system-out><![CDATA[Given User wants to get the database information of Digital Registries ...passed
+When User sends GET request with given Information-Mediator-Client head...passed
+Then User receives a response from the GET /database/id endpoint..........passed
+And The GET /database/id endpoint response should be returned in a time...passed
+And The GET /database/id endpoint response should have status 200.........passed
+And The GET /database/id endpoint response should have content-type: ap...passed
+And The GET /database/id endpoint response should match json schema.......passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to get database information with database schema." name="User successfully obtains database information with database schema [1]" time="0.012039162999999999">
+    <system-out><![CDATA[Given User wants to get the database information of Digital Registries ...passed
+When User sends GET request with given Information-Mediator-Client head...passed
+Then User receives a response from the GET /database/id endpoint..........passed
+And The GET /database/id endpoint response should be returned in a time...passed
+And The GET /database/id endpoint response should have status 200.........passed
+And The GET /database/id endpoint response should have content-type: ap...passed
+And The GET /database/id endpoint response should match json schema.......passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to get database information with database schema." name="User successfully obtains database information with database schema [2]" time="0.011247898000000001">
+    <system-out><![CDATA[Given User wants to get the database information of Digital Registries ...passed
+When User sends GET request with given Information-Mediator-Client head...passed
+Then User receives a response from the GET /database/id endpoint..........passed
+And The GET /database/id endpoint response should be returned in a time...passed
+And The GET /database/id endpoint response should have status 200.........passed
+And The GET /database/id endpoint response should have content-type: ap...passed
+And The GET /database/id endpoint response should match json schema.......passed]]></system-out>
+  </testcase>
+  <testcase classname="API endpoint that allows user to get database information with database schema." name="User successfully obtains database information with database schema [3]" time="0.012759283">
+    <system-out><![CDATA[Given User wants to get the database information of Digital Registries ...passed
+When User sends GET request with given Information-Mediator-Client head...passed
+Then User receives a response from the GET /database/id endpoint..........passed
+And The GET /database/id endpoint response should be returned in a time...passed
+And The GET /database/id endpoint response should have status 200.........passed
+And The GET /database/id endpoint response should have content-type: ap...passed
+And The GET /database/id endpoint response should match json schema.......passed]]></system-out>
+  </testcase>
+</testsuite>
