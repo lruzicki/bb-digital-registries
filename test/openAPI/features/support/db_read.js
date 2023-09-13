@@ -55,11 +55,11 @@ Then('The GET \\/database\\/id endpoint response should have status 200', () =>
 );
 
 Then(
-  'The GET \\/database\\/id endpoint response should have content-type: application\\/json header',
-  () =>
-    specDatabaseRead
-      .response()
-      .should.have.header(contentTypeHeader.key, contentTypeHeader.value)
+  'The GET \\/database\\/id endpoint response should have content-type: {string} as ContentType',
+  (ContentType) =>{
+    const actualContentType = specDatabaseRead.response().headers[contentTypeHeader.key];
+    chai.expect(actualContentType, `Should contain content type ${ContentType}`).to.include(ContentType);
+  }
 );
 
 Then(
